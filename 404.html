@@ -2,5 +2,5 @@
 <meta charset="utf-8">
 <meta name="robots" content="noindex">
 <title>FOMES</title>
-<meta http-equiv="refresh" content="0; url=/">
-<script>location.replace("/");</script>
+<script>var p=location.pathname.toLowerCase().match(new RegExp('^/(manual|open)(?:/([a-z]{2}))?'));var l=p&&["it","de","fr","es","nl"].indexOf(p[2])>=0?p[2]+'/':'';location.replace(p?'/'+p[1]+'/'+l+location.search+location.hash:'/');</script>
+<noscript><meta http-equiv="refresh" content="0; url=/"></noscript>

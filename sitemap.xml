@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url><loc>https://www.fomes.eu/</loc></url>
+	<url><loc>https://www.fomes.eu/manual/</loc></url>
+	<url><loc>https://www.fomes.eu/manual/it/</loc></url>
+	<url><loc>https://www.fomes.eu/manual/de/</loc></url>
+	<url><loc>https://www.fomes.eu/manual/fr/</loc></url>
+	<url><loc>https://www.fomes.eu/manual/es/</loc></url>
+	<url><loc>https://www.fomes.eu/manual/nl/</loc></url>
+	<url><loc>https://www.fomes.eu/open/</loc></url>
+	<url><loc>https://www.fomes.eu/open/it/</loc></url>
+	<url><loc>https://www.fomes.eu/open/de/</loc></url>
+	<url><loc>https://www.fomes.eu/open/fr/</loc></url>
+	<url><loc>https://www.fomes.eu/open/es/</loc></url>
+	<url><loc>https://www.fomes.eu/open/nl/</loc></url>
 </urlset>
