@@ -2,5 +2,5 @@
 <meta charset="utf-8">
 <meta name="robots" content="noindex">
 <title>FOMES</title>
-<script>var p=location.pathname.toLowerCase().match(new RegExp('^/(manual|open)(?:/([a-z]{2}))?'));var l=p&&["it","de","fr","es","nl"].indexOf(p[2])>=0?p[2]+'/':'';location.replace(p?'/'+p[1]+'/'+l+location.search+location.hash:'/');</script>
+<script>var L=["it","de","fr","es","nl"];var p=location.pathname.toLowerCase().match(new RegExp('^/(manual|open)(?:/([a-z]{2}))?'));var l=p&&L.indexOf(p[2])>=0?p[2]:'';if(p&&!l&&p[2]!=='en'){var n=navigator.languages&&navigator.languages.length?navigator.languages:[navigator.language||''];for(var i=0;i<n.length;i++){var x=String(n[i]).slice(0,2).toLowerCase();if(x==='en')break;if(L.indexOf(x)>=0){l=x;break;}}}location.replace(p?'/'+p[1]+'/'+(l?l+'/':'')+location.search+location.hash:'/');</script>
 <noscript><meta http-equiv="refresh" content="0; url=/"></noscript>
