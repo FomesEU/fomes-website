@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>(function(){if(new URLSearchParams(location.search).has('lang'))return;var i=false;try{i=!!document.referrer&&new URL(document.referrer).host===location.host}catch(e){}if(i)return;var L={"it":"/it/"};var n=navigator.languages&&navigator.languages.length?navigator.languages:[navigator.language||''];for(var k=0;k<n.length;k++){var x=String(n[k]).slice(0,2).toLowerCase();if(x==='en')return;if(L[x]){location.replace(L[x]+location.search+location.hash);return}}})()</script>
 <meta name="description" content="TUBOH by FOMES: a protective case for the outdoors, in borosilicate glass and PA12. Made in Italy, shipped in mycelium.">
 <meta property="og:description" content="TUBOH by FOMES: a protective case for the outdoors, in borosilicate glass and PA12. Made in Italy, shipped in mycelium.">
 <link rel="icon" href="/wp-content/themes/fomes2/assets/img/favicon.svg" type="image/svg+xml">
@@ -11,12 +12,16 @@
 <script>document.documentElement.classList.add('js')</script>
 <title>TUBOH by FOMES</title>
 <meta name='robots' content='max-image-preview:large' />
+<link rel="alternate" hreflang="en" href="https://www.fomes.eu/">
+<link rel="alternate" hreflang="it" href="https://www.fomes.eu/it/">
+<link rel="alternate" hreflang="x-default" href="https://www.fomes.eu/">
 
 
-<link rel='stylesheet' id='fomes2-css' href='/wp-content/themes/fomes2/assets/css/fomes2.css?ver=1792739916' media='all' />
+<link rel='stylesheet' id='fomes2-css' href='/wp-content/themes/fomes2/assets/css/fomes2.css?ver=1792854225' media='all' />
 <link rel="canonical" href="https://www.fomes.eu/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="FOMES">
+<meta property="og:locale" content="en_US">
 <meta property="og:title" content="TUBOH by FOMES">
 <meta property="og:url" content="https://www.fomes.eu/">
 <meta property="og:image" content="https://www.fomes.eu/wp-content/themes/fomes2/assets/img/anteprima-tuboh.jpg">
@@ -65,7 +70,11 @@
 	<a class="testa__logo testa__logo--3d" href="/" aria-label="FOMES">
 					<img src="/wp-content/themes/fomes2/assets/logo3d/000.webp" alt="FOMES" width="140" height="23" data-n="120" data-base="/wp-content/themes/fomes2/assets/logo3d/">
 			</a>
-				<nav class="pagine" aria-label="Pages">
+		<nav class="lingue" aria-label="Language">
+					<a href="/" hreflang="en" lang="en" aria-label="English" aria-current="page">EN</a>
+					<a href="/it/" hreflang="it" lang="it" aria-label="Italiano">IT</a>
+			</nav>
+					<nav class="pagine" aria-label="Pages">
 					<a href="/manual/">Use &amp; maintenance →</a>
 					<a href="/open/">How to open →</a>
 			</nav>
@@ -2101,7 +2110,7 @@ carry it.</p>
 			<span>STAY IN CONTACT</span>
 			<button type="button" data-drawer-close>[ CLOSE ]</button>
 		</div>
-								<form class="iscrizione" data-iscrizione data-azione="https://517de8f7.sibforms.com/serve/MUIFAGNL05mPDeb9tP8jdlpsllCLoD3ycvXPTVx-h0bomluBWXcUXovq0mL-6pVGuxqBcUCV-gmay9fByNgLuvKYpH9fM3LzT0jiEzt9UKQfvy2WBWA4P4FvwyELAnyJuLgU-BBpsjMOeCB8XPU_y8lFh_KpTOhWXPmJdmXGa9uHVELxqcMJxkJB84VKNLoe1y1_6cdffU3e0N1hSA==" novalidate>
+										<form class="iscrizione" data-iscrizione data-azione="https://517de8f7.sibforms.com/serve/MUIFAGNL05mPDeb9tP8jdlpsllCLoD3ycvXPTVx-h0bomluBWXcUXovq0mL-6pVGuxqBcUCV-gmay9fByNgLuvKYpH9fM3LzT0jiEzt9UKQfvy2WBWA4P4FvwyELAnyJuLgU-BBpsjMOeCB8XPU_y8lFh_KpTOhWXPmJdmXGa9uHVELxqcMJxkJB84VKNLoe1y1_6cdffU3e0N1hSA==" novalidate>
 								<input type="text" name="email_address_check" value="" class="iscrizione__trappola" tabindex="-1" autocomplete="off" aria-hidden="true">
 				<input type="hidden" name="locale" value="it">
 								<input type="hidden" name="PAESE" value="">
@@ -2112,7 +2121,7 @@ carry it.</p>
 				<input type="hidden" name="FINITURA" value="">
 				<label class="iscrizione__consenso"><input type="checkbox" name="consenso" required>
 					<span>I agree to receive emails about TUBOH. I can unsubscribe at any time.</span></label>
-								<p class="iscrizione__informativa"><a href="https://www.iubenda.com/privacy-policy/69963567" class="iubenda-white iubenda-noiframe iubenda-embed" title="Privacy Policy">Privacy policy</a></p>
+												<p class="iscrizione__informativa"><a href="https://www.iubenda.com/privacy-policy/69963567" class="iubenda-white iubenda-noiframe iubenda-embed" title="Privacy Policy">Privacy policy</a></p>
 				<button type="submit" class="iscrizione__invia">[ STAY IN CONTACT ]</button>
 								<p class="iscrizione__manca" role="alert" hidden data-email="Please enter a valid email." data-consenso="Please tick the box to continue."></p>
 				<p class="iscrizione__errore" role="alert" hidden>Something went wrong. Please write to <a href="mailto:support@fomes.eu">support@fomes.eu</a></p>
@@ -2130,6 +2139,6 @@ carry it.</p>
 var FOMES2 = {"seq":{"01":{"base":"/wp-content/themes/fomes2/assets/seq/01/","n":145,"webp":true,"avif":true,"v":"0bdf0922e9"},"02":{"base":"/wp-content/themes/fomes2/assets/seq/02/","n":145,"webp":true,"avif":true,"v":"3eb80af8e3"},"03":{"base":"/wp-content/themes/fomes2/assets/seq/03/","n":217,"webp":true,"avif":true,"v":"2e0671ffdd"},"04":{"base":"/wp-content/themes/fomes2/assets/seq/04/","n":109,"webp":true,"avif":true,"v":"794bf6b63f"},"05":{"base":"/wp-content/themes/fomes2/assets/seq/05/","n":109,"webp":true,"avif":true,"v":"e478a1ee52"},"06":{"base":"/wp-content/themes/fomes2/assets/seq/06/","n":253,"webp":true,"avif":true,"v":"402f0d63d3"}},"seqTel":{"01":{"base":"/wp-content/themes/fomes2/assets/seq-tel/01/","n":145,"webp":true,"avif":true,"v":"fc8ae25f29"},"02":{"base":"/wp-content/themes/fomes2/assets/seq-tel/02/","n":145,"webp":true,"avif":true,"v":"9dd61c2692"},"03":{"base":"/wp-content/themes/fomes2/assets/seq-tel/03/","n":217,"webp":true,"avif":true,"v":"6c17f1c1b5"},"04":{"base":"/wp-content/themes/fomes2/assets/seq-tel/04/","n":109,"webp":true,"avif":true,"v":"a6af59f05f"},"05":{"base":"/wp-content/themes/fomes2/assets/seq-tel/05/","n":109,"webp":true,"avif":true,"v":"1bfe0f0875"},"06":{"base":"/wp-content/themes/fomes2/assets/seq-tel/06/","n":253,"webp":true,"avif":true,"v":"8429d6b5f2"}}};
 //# sourceURL=fomes2-js-extra
 </script>
-<script id="fomes2-js" src="/wp-content/themes/fomes2/assets/js/fomes2.js?ver=1792754288"></script>
+<script id="fomes2-js" src="/wp-content/themes/fomes2/assets/js/fomes2.js?ver=1792849113"></script>
 </body>
 </html>
